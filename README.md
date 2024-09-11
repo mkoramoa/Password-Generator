@@ -16,8 +16,8 @@ A versatile password generator that creates secure, random passwords based on us
 ## Installation
 1. Clone the repository:
    ```bash
-   git clone https://github.com/mkoramoa/password-generator.git
-   cd password-generator
+   git clone https://github.com/mkoramoa/Password-Generator.git
+   cd Password-Generator
 
 2. Install the required packages:
    ```bash
@@ -25,7 +25,7 @@ A versatile password generator that creates secure, random passwords based on us
 ## Usage
 - To run the password generator from the command line:
   ```bash
-   python password_generator.py
+   python createpassword.py
 - The user is prompted with entering a length for the password. Once the minimum length has been entered, the user is then prompted for a choice of character types within the password. The password is then generated and copied onto the clipboard for use by the user. Here is a short clip of how it looks like:
   ![Password generation Demonstration](password_generation.gif)
 
