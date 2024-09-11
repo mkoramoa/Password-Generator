@@ -32,7 +32,7 @@ A versatile password generator that creates secure, random passwords based on us
 ## Security Considerations
 - It is important that sensitive data is not logged.
 - Passwords are copied to the clipboard; Copied passwords are automatically cleared after a specific time. In this project, it is cleared after 30 seconds:
-  ![Clearing the Clipboard after 30 seconds](Clipboard clear.jpg)
+  ![Clearing the Clipboard after 30 seconds](Clipboard_clear.jpg)
 ## Upcoming Improvements
 - Adding created passwords into an encrypted CSV file for easy access and storage.
 - Adding API node to the project
