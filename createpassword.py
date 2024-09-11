@@ -71,6 +71,9 @@ class PasswordGenerator:
 if __name__ == "__main__":
     try:
         size = int(input("Enter the desired password length (minimum 13): "))
+        # Check for valid password length input
+        while(size<13):
+            size = int(input("Password length was less than the minimum(13). Enter the desired password length (minimum 13): "))
         use_upper = input("Include uppercase letters? (y/n): ").lower() == 'y'
         use_lower = input("Include lowercase letters? (y/n): ").lower() == 'y'
         use_digits = input("Include digits? (y/n): ").lower() == 'y'
